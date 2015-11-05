@@ -10,6 +10,10 @@ MAGENTA=$'\e[1;35m'
 CYAN=$'\e[1;36m'
 NOCOLOR=$'\e[0m'
 
+function c {
+  printf "${CYAN}Configuring: ${GREEN}%s${NOCOLOR}\n" "$1"
+}
+
 function dl {
   printf "${CYAN}Downloading: ${GREEN}%s${NOCOLOR}\n" "$1"
 }
@@ -98,14 +102,26 @@ i "MongoDB" && brew install mongodb --with-openssl
 i "PostgresQL" && brew install postgresql
 i "RethinkDB" && brew install rethinkdb
 
+# Data Analysis/Processing
+
+i "Hadoop" && brew install hadoop
+
 # Web-development
 
 i "Node" && brew install node
 i "Django" && pip install Django==1.8.5
 imp "Password needed (sudo gem...)!"
 i "Jekyll" && sudo gem install jekyll
+i "Jekyll Paginate" && sudo gem install jekyll-paginate
 i "Redcarpet" && sudo gem install redcarpet
+i "Pygments (Python)" && pip install Pygments
+i "Pygments (Ruby)" && sudo gem install pygments.rb
 i "Meteor" && curl https://install.meteor.com/ | sh
+
+# Go
+
+mkdir -p ~/.go/bin
+grep 'GOPATH' ~/.zshrc || echo -e "\nexport GOPATH=$HOME/.go\nexport PATH=$PATH:$HOME/.go/bin\nexport GO15VENDOREXPERIMENT=1" >> ~/.zshrc
 
 # zsh
 
