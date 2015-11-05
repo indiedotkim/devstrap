@@ -1,3 +1,6 @@
+---
+layout:index
+---
 # devstrap
 
 Bootstrap a cozy development environment in no time!
