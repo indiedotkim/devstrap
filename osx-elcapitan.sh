@@ -48,6 +48,8 @@ if [ -f "~/.vimrc" ] ; then
   mv ~/.vimrc ~/.vimrc-bak
 fi
 
+# git config --global push.default simple
+
 echo -e "syntax on\ncolorscheme peachpuff\nfiletype plugin indent on\nset tabstop=4\nset shiftwidth=4\nset expandtab" > ~/.vimrc
 
 #
@@ -91,6 +93,16 @@ i "Python" && brew install python
 
 i "Automake" && brew install automake
 i "CMake" && brew install cmake
+
+# Scala
+#
+# To use with IntelliJ, set the Scala home to:
+#  /usr/local/opt/scala210/idea
+
+i "Scala 2.10" && brew install homebrew/versions/scala210
+for exe in /usr/local/Cellar/scala210/*/bin/* ; do
+  ln -s "$exe" /usr/local/bin/`basename "$exe"`
+done
 
 # Databases
 
