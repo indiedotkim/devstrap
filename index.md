@@ -1,8 +1,7 @@
 ---
-layout:index
+layout: index
+title: devstrap
 ---
-# devstrap
-
 Bootstrap a cozy development environment in no time!
 
 Downloads (for manual installation):
