@@ -104,6 +104,7 @@ i "Node" && brew install node
 i "Django" && pip install Django==1.8.5
 imp "Password needed (sudo gem...)!"
 i "Jekyll" && sudo gem install jekyll
+i "Redcarpet" && sudo gem install redcarpet
 i "Meteor" && curl https://install.meteor.com/ | sh
 
 # zsh

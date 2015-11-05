@@ -24,6 +24,7 @@ Installs:
 * PostgreSQL
 * Powerline
 * Python for development
+* Redcarpet
 * RethinkDB
 * Scala 2.10
 * zsh (Oh My Zsh)
