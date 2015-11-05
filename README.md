@@ -22,10 +22,12 @@ Installs:
 * Powerline
 * Python for development
 * RethinkDB
+* Scala 2.10
 * zsh (Oh My Zsh)
 
 Configures:
 
+* git (merge strategy)
 * vim
 * zsh
 
