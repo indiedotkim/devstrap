@@ -1,6 +1,7 @@
 ---
 layout: index
 title: devstrap
+tagline: Bootstrapping a cozy development environment.
 ---
 Bootstrap a cozy development environment in no time!
 
