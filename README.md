@@ -1,8 +1,6 @@
-# devstrap
-
 Automating the bootstrap process for creating a cozy development environment! Perfect for convincing your boss that a shiny new laptop will not take ages to set up!
 
-![zsh example](https://github.com/indiedotkim/devstrap/blob/master/example1.png)
+<img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/example1.png" width="600" height="610" />
 
 Downloads (for manual installation):
 
