@@ -18,6 +18,7 @@ Installs:
 * Automake
 * CMake
 * Django
+* Hadoop
 * Homebrew
 * Jekyll
 * Meteor
@@ -25,6 +26,7 @@ Installs:
 * Node
 * PostgreSQL
 * Powerline
+* Pygments (Ruby & Python)
 * Python for development
 * Redcarpet
 * RethinkDB
@@ -34,6 +36,7 @@ Installs:
 Configures:
 
 * git (merge strategy)
+* go
 * vim
 * zsh
 
