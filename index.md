@@ -3,7 +3,11 @@ layout: index
 title: devstrap
 tagline: Bootstrapping a cozy development environment.
 ---
-Bootstrap a cozy development environment in no time!
+# devstrap
+
+Automating the bootstrap process for creating a cozy development environment! Perfect for convincing your boss that a shiny new laptop will not take ages to set up!
+
+![zsh example](https://github.com/indiedotkim/devstrap/blob/master/example1.png)
 
 Downloads (for manual installation):
 
