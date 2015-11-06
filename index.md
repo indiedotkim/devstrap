@@ -36,7 +36,8 @@ Installs:
 Configures:
 
 * git (merge strategy)
-* go
+* Go
+* Hadoop (Yarn & DFS)
 * vim
 * zsh
 

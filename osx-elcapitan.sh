@@ -123,6 +123,34 @@ i "Meteor" && curl https://install.meteor.com/ | sh
 mkdir -p ~/.go/bin
 grep 'GOPATH' ~/.zshrc || echo -e "\nexport GOPATH=$HOME/.go\nexport PATH=$PATH:$HOME/.go/bin\nexport GO15VENDOREXPERIMENT=1" >> ~/.zshrc
 
+# Hadoop
+
+if [[ "$HADOOP_PREFIX" != "" ] ; then
+  imp "Hadoop already configured!"
+else
+  HADOOP_PREFIX=`find /usr/local/Cellar/hadoop/*/libexec/bin -name hdfs | sed -E 's/\/bin.*$//'`
+
+  cat <<EOF > "$HADOOP_PREFIX"/etc/hadoop/core-site.xml
+<configuration>
+    <property>
+        <name>fs.defaultFS</name>
+        <value>hdfs://localhost:9000</value>
+    </property>
+</configuration>
+EOF
+  cat <<EOF > "$HADOOP_PREFIX"/etc/hadoop/hdfs-site.xml
+<configuration>
+    <property>
+        <name>dfs.replication</name>
+        <value>1</value>
+    </property>
+</configuration>
+EOF
+
+  echo -e "\nexport HADOOP_PREFIX=$HADOOP_PREFIX" >> ~/.zshrc
+  echo -e "\nexport PATH=$PATH:/usr/local/sbin" >> ~/.zshrc
+fi
+
 # zsh
 
 imp "!!!"
@@ -142,9 +170,15 @@ git clone https://github.com/powerline/fonts.git powerline-fonts
 cd powerline-fonts
 ./install.sh
 
+imp ""
+imp "--- FINAL MANUAL INSTALLATION STEPS ---"
+imp ""
 imp "iTerm2 color themes are located in the ZIP archive in the 'schemes' directory."
 imp "In iTerm2, go to 'Edit Profiles', 'Colors', 'Load Presets...', then select"
 imp "all files in the 'schemes' directory to import all color presets at once."
+imp ""
+imp "Hadoop requires that an SSH server is up and running."
+imp "Click 'System Preferences', then 'Sharing', and turn 'On' the 'Remote Login' service."
 imp ""
 inf
 
