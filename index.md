@@ -27,11 +27,11 @@ Installs:
 * Node
 * PostgreSQL
 * Powerline
+* Protocol Buffers 2.5.0
 * Pygments (Ruby & Python)
 * Python for development
 * Redcarpet
 * RethinkDB
-* Scala 2.10
 * zsh (Oh My Zsh)
 
 Configures:
