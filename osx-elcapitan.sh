@@ -105,29 +105,10 @@ i "RethinkDB" && brew install rethinkdb
 # Data Analysis/Processing
 
 i "Hadoop" && brew install hadoop
-
-# Web-development
-
-i "Node" && brew install node
-i "Django" && pip install Django==1.8.5
-imp "Password needed (sudo gem...)!"
-i "Jekyll" && sudo gem install jekyll
-i "Jekyll Paginate" && sudo gem install jekyll-paginate
-i "Redcarpet" && sudo gem install redcarpet
-i "Pygments (Python)" && pip install Pygments
-i "Pygments (Ruby)" && sudo gem install pygments.rb
-i "Meteor" && curl https://install.meteor.com/ | sh
-
-# Go
-
-mkdir -p ~/.go/bin
-grep 'GOPATH' ~/.zshrc || echo -e "\nexport GOPATH=$HOME/.go\nexport PATH=$PATH:$HOME/.go/bin\nexport GO15VENDOREXPERIMENT=1" >> ~/.zshrc
-
-# Hadoop
-
-if [[ "$HADOOP_PREFIX" != "" ] ; then
+if [[ "$HADOOP_PREFIX" != "" ]] ; then
   imp "Hadoop already configured!"
 else
+  c "Hadoop"
   HADOOP_PREFIX=`find /usr/local/Cellar/hadoop/*/libexec/bin -name hdfs | sed -E 's/\/bin.*$//'`
 
   cat <<EOF > "$HADOOP_PREFIX"/etc/hadoop/core-site.xml
@@ -150,6 +131,27 @@ EOF
   echo -e "\nexport HADOOP_PREFIX=$HADOOP_PREFIX" >> ~/.zshrc
   echo -e "\nexport PATH=$PATH:/usr/local/sbin" >> ~/.zshrc
 fi
+
+# Maven
+
+i "Maven" && brew install maven
+
+# Web-development
+
+i "Node" && brew install node
+i "Django" && pip install Django==1.8.5
+imp "Password needed (sudo gem...)!"
+i "Jekyll" && sudo gem install jekyll
+i "Jekyll Paginate" && sudo gem install jekyll-paginate
+i "Redcarpet" && sudo gem install redcarpet
+i "Pygments (Python)" && pip install Pygments
+i "Pygments (Ruby)" && sudo gem install pygments.rb
+i "Meteor" && curl https://install.meteor.com/ | sh
+
+# Go
+
+mkdir -p ~/.go/bin
+grep 'GOPATH' ~/.zshrc || echo -e "\nexport GOPATH=$HOME/.go\nexport PATH=$PATH:$HOME/.go/bin\nexport GO15VENDOREXPERIMENT=1" >> ~/.zshrc
 
 # zsh
 

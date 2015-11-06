@@ -21,6 +21,7 @@ Installs:
 * Hadoop
 * Homebrew
 * Jekyll
+* Maven
 * Meteor
 * MongoDB
 * Node
