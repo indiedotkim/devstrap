@@ -136,6 +136,10 @@ fi
 
 i "Maven" && brew install maven
 
+# Protocol Buffers
+
+i "Protocol Buffers (2.5.0)" && brew install protobuf250
+
 # Web-development
 
 i "Node" && brew install node
