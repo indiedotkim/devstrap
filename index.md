@@ -11,11 +11,16 @@ Automating the bootstrap process for creating a cozy development environment! Pe
 
 ### Features
 
-* 
+* downloads applications essential for engineering & comfort
+* installs vast swaths of development tools, frameworks, and goodies
+* configures your work environment to get coding immediately
+* HOWTOs on how to get around some system specific pitfalls
 
 ### Shell Eye Candy
 
+<div style="margin-left: auto; margin-right: auto;">
 <img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/example1.png" width="600" height="610" />
+</div>
 
 ### Conclusive List
 
