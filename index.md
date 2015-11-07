@@ -18,9 +18,11 @@ Automating the bootstrap process for creating a cozy development environment! Pe
 
 ### Shell Eye Candy
 
-<div style="margin-left: auto; margin-right: auto;">
+devstrap is not about styling your shell, but the project got started that way! Please enjoy the following screenshot that shows Oh My Zsh (powerlevel9k theme) running in iTerm 2 (Inconsolata/Source Code Powerline fonts)!
+
+<p style="text-align: center">
 <img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/example1.png" width="600" height="610" />
-</div>
+</p>
 
 ### Conclusive List
 
