@@ -31,6 +31,7 @@ Installs:
 
 * Automake
 * CMake
+* CocoaPods
 * Django
 * Hadoop
 * Homebrew

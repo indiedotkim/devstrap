@@ -96,6 +96,10 @@ i "Python" && brew install python
 i "Automake" && brew install automake
 i "CMake" && brew install cmake
 
+# CocoaPods
+
+i "CocoaPods" && sudo gem install cocoapods
+
 # Databases
 
 i "MongoDB" && brew install mongodb --with-openssl
