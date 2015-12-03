@@ -37,6 +37,7 @@ Installs:
 * Homebrew
 * Jekyll
 * Maven
+* Mercurial
 * Meteor
 * MongoDB
 * Node

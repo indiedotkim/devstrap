@@ -81,6 +81,10 @@ cd ..
 
 sec "Development Tools and Frameworks"
 
+# Mercurial
+
+i "Mercurial" && brew install hg
+
 # Homebrew
 
 i "Homebrew" && ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
