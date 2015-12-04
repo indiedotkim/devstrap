@@ -105,6 +105,7 @@ i "Python" && brew install python
 
 i "Automake" && brew install automake
 i "CMake" && brew install cmake
+i "Libtool" && brew install libtool
 i "XZ" && brew install xz
 
 # CocoaPods
