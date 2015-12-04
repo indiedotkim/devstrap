@@ -53,6 +53,8 @@ Installs:
 * Python for development
 * Redcarpet
 * RethinkDB
+* Xcode command line tools
+* XZ
 * zsh (Oh My Zsh)
 
 Configures:

@@ -38,9 +38,15 @@ set -e
 
 sec "Initialization"
 
+if [ ! -d "/Applications/Xcode.app" ] ; then
+  imp "Please install Xcode first."
+  exit 2
+fi
+
 cd ~/Desktop
 
 if [ -d "$MANUAL_INST" ] ; then
+  cd -
   exit 1
 fi
 
@@ -99,6 +105,7 @@ i "Python" && brew install python
 
 i "Automake" && brew install automake
 i "CMake" && brew install cmake
+i "XZ" && brew install xz
 
 # CocoaPods
 
@@ -183,6 +190,10 @@ cd ~/Desktop/$MANUAL_INST
 git clone https://github.com/powerline/fonts.git powerline-fonts
 cd powerline-fonts
 ./install.sh
+
+# Xcode command line tools
+
+i "Xcode command line tools" && xcode-select --install
 
 imp ""
 imp "--- FINAL MANUAL INSTALLATION STEPS ---"
