@@ -41,6 +41,7 @@ Installs:
 * Hadoop
 * Homebrew
 * Jekyll
+* Libtool
 * Maven
 * Mercurial
 * Meteor
