@@ -9,6 +9,8 @@ tagline: Bootstrapping a cozy development environment.
 
 Automating the bootstrap process for creating a cozy development environment! Perfect for convincing your boss that a shiny new laptop will not take ages to set up!
 
+### Excerpt of Goodies
+
 <p style="text-align: center">
 <img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/firefox_logo-only_RGB.png" width="100" hspace="10" />
 <img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/large_v-dark-trans.png" width="100" hspace="10" />
