@@ -1,5 +1,29 @@
 Automating the bootstrap process for creating a cozy development environment! Perfect for convincing your boss that a shiny new laptop will not take ages to set up!
 
+<p style="text-align: center">
+<img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/Cmake.svg" width="100" />
+<img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/django-logo-positive.svg" width="100" />
+<img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/firefox_logo-only_RGB.png" width="100" />
+<img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/Hadoop_logo.svg" width="100" />
+</p>
+
+<p style="text-align: center">
+<img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/iterm2.png" width="100" />
+<img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/jekyll-logo-black-red-solid.png" width="100" />
+<img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/large_v-dark-trans.png" width="100" />
+<img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/Maven_logo.svg" width="100" />
+</p>
+
+<p style="text-align: center">
+</p>
+
+<p style="text-align: center">
+</p>
+
+<p style="text-align: center">
+<em>&hellip;and a few more.</em>
+</p>
+
 ### Usage
 
     ./osx-elcapitan.sh
