@@ -107,6 +107,8 @@ i "Automake" && brew install automake
 i "CMake" && brew install cmake
 i "Libtool" && brew install libtool
 i "XZ" && brew install xz
+i "zlib" && brew install homebrew/dupes/zlib && brew link zlib --force
+i "OpenSSL" && brew install openssl && brew link openssl --force
 
 # CocoaPods
 
