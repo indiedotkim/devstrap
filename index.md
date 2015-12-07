@@ -3,6 +3,11 @@ layout: index
 title: devstrap
 tagline: Bootstrapping a cozy development environment.
 ---
+=======
+<p style="text-align: center">
+<img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/devstrap.png" width="200" hspace="25" />
+</p>
+
 Automating the bootstrap process for creating a cozy development environment! Perfect for convincing your boss that a shiny new laptop will not take ages to set up!
 
 <p style="text-align: center">
