@@ -47,6 +47,7 @@ Installs:
 * Meteor
 * MongoDB
 * Node
+* OpenSSL
 * PostgreSQL
 * Powerline
 * Protocol Buffers 2.5.0
@@ -56,6 +57,7 @@ Installs:
 * RethinkDB
 * Xcode command line tools
 * XZ
+* zlib
 * zsh (Oh My Zsh)
 
 Configures:
