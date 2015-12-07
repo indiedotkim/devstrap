@@ -9,9 +9,9 @@ Automating the bootstrap process for creating a cozy development environment! Pe
 
 <p style="text-align: center">
 <img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/RethinkDB-logo-thinker.png" width="100" hspace="10" />
-<img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/MongoDB-Logo-5c3a7405a85675366beb3a5ec4c032348c390b3f142f5e6dddf1d78e2df5cb5c.png" width="100" hspace="10" />
+<img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/Meteor-logo.png" width="100" hspace="10" />
+<img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/nodejs-light.png" width="100" hspace="10" />
 <img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/django-logo-positive.png" width="100" hspace="10" />
-<img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/Hadoop_logo.png" width="100" hspace="10" />
 </p>
 
 <p style="text-align: center">
@@ -22,8 +22,8 @@ Automating the bootstrap process for creating a cozy development environment! Pe
 </p>
 
 <p style="text-align: center">
-<img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/Meteor-logo.png" width="100" hspace="10" />
-<img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/nodejs-light.png" width="100" hspace="10" />
+<img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/MongoDB-Logo-5c3a7405a85675366beb3a5ec4c032348c390b3f142f5e6dddf1d78e2df5cb5c.png" width="100" hspace="10" />
+<img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/Hadoop_logo.png" width="100" hspace="10" />
 <img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/Maven_logo.png" width="100" hspace="10" />
 <img src="https://raw.githubusercontent.com/indiedotkim/devstrap/master/logos/jekyll-logo-black-red-solid.png" width="100" hspace="10" />
 </p>
