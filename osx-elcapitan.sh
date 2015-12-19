@@ -101,8 +101,9 @@ brew update
 
 i "Python" && brew install python
 
-# C/C++ related tools
+# C/C++/Objective-C related tools
 
+i "appledoc" && brew install appledoc
 i "Automake" && brew install automake
 i "CMake" && brew install cmake
 i "Libtool" && brew install libtool
