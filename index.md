@@ -72,6 +72,7 @@ Downloads (needs double clicking):
 
 Installs:
 
+* appledoc
 * Automake
 * CMake
 * CocoaPods
